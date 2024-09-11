@@ -39,13 +39,6 @@ export const menuItems = [
     target: "_self",
     subItems: [
       {
-        id: "all",
-        text: "All blogs",
-        href: "/blog",
-        svg: "post",
-        target: "_self",
-      }, // All blog
-      {
         id: "tech",
         text: "Tech blogs",
         href: "/blog/categories/tech",
