@@ -1,18 +1,17 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
-
 // Site title and description
-export const SITE_TAB = "Frosti";
-export const SITE_TITLE = "Frosti 🧊";
-export const SITE_DESCRIPTION = "A blog template";
-export const DATE_FORMAT = "ddd MMM DD YYYY";
+export const SITE_TAB = "tusoar";
+export const SITE_TITLE = "tusoar's blog";
+export const SITE_DESCRIPTION = "tusoar's blog";
+export const DATE_FORMAT = "Wed Sep 11 2024";
 
 // User profile information
-export const USER_NAME = "EveSunMaple";
-export const USER_AVATAR = "/profile.webp";
+export const USER_NAME = "tusoar";
+export const USER_AVATAR = "/avater.png";
 
 // Server and transition settings
-export const SERVER_URL = "https://demo.saroprock.com";
+export const SERVER_URL = "https://tusoar.tech";
 
 // Some informative text on the site
 export const infoTest = {
@@ -61,54 +60,27 @@ export const menuItems = [
         target: "_self",
       }, // Life category
     ],
-  }, // Blog page with sub-items
-  {
-    id: "project",
-    text: "Project",
-    href: "/project",
-    svg: "project",
-    target: "_self",
-  }, // Projects page
-  {
-    id: "friend",
-    text: "Friend",
-    href: "/friend",
-    svg: "friend",
-    target: "_self",
-  }, // Friends page
-  {
-    id: "contact",
-    text: "Contact",
-    href: "mailto:contact.evesunmaple@outlook.com", // Contact email
-    target: "_blank", // Open in a new tab
-    svg: "contact",
-  },
+  }
 ];
 
 // Social media and contact icons
 export const socialIcons = [
   {
-    href: "https://afdian.net/a/saroprock",
-    ariaLabel: "Support my work",
-    title: "Support my work",
-    svg: "support",
+    href: "https://x.com/soar_tu",
+    ariaLabel: "twitter",
+    title: "twitter",
+    svg: "twitter",
   },
   {
-    href: "https://github.com/EveSunMaple",
+    href: "https://github.com/tusoar",
     ariaLabel: "Github",
     title: "Github",
     svg: "github",
   },
   {
-    href: "https://space.bilibili.com/438392347",
-    ariaLabel: "BiliBili",
-    title: "BiliBili",
-    svg: "bilibili",
-  },
-  {
-    href: "/rss.xml",
-    ariaLabel: "RSS Feed",
-    title: "RSS Feed",
-    svg: "rss",
-  },
+    href: "https://zeroday.hitcon.org/user/tusoar",
+    ariaLabel: "Hitcon ZeroDay",
+    title: "Hitcon ZeroDay",
+    svg: "secret",
+  }
 ];
